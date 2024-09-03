@@ -5,8 +5,7 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-echo $ALIYUN_REGISTRY_PASSWORD | docker login -u $ALIYUN_REGISTRY_USER --password-stdin $ALIYUN_REGISTRY
 openmetadata_mysql
 openmetadata_elasticsearch
 execute_migrate_all
-openmetadata_ingestion
+openmetadata_ingestion 
